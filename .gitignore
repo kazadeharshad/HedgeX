@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# production
+dist/
+build/
+
+# env files
+.env
+.env.*
+
+# tooling
+.vite/
