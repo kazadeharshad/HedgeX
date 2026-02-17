@@ -5,9 +5,174 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color:#424242;
 }
+/* oklab */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fs-8{
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.fs-7{
+  font-size: 0.85rem;
+}
+
+.links{
+  color: #397DD0;
+
+}
+.links:hover{
+  color: #424242;
+}
+
+/* Navbar */
+.nav-link{
+  margin-left: 1.75rem;
+}
+
+.nav-link:hover{
+  color: #397DD0;
+}
+
+#btn :hover{
+  background-color : #000;
+}
+
+/* Footer */
+.footer-links{
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+.footer-links:hover{
+  color: #397DD0;
+}
+
+.footer-text{
+  font-size: 0.7rem;
+  color: #6c757d;
+}
+
+.footer-links-bottom{
+  font-size: 0.85rem;
+  color: #9aa0a6;
+  font-weight: 500;
+}
+
+.footer-links-bottom:hover{
+  color: #397DD0;
+}
+
+footer{
+  background-color: #fdfcfc;
+}
+
+/*products page*/
+
+.product-img:hover{
+  opacity: 0.78;
+}
+/* Support page */
+.support{
+  background-color: #f3f3f3;
+}
+
+.border-thin{
+  border-bottom: 0.5px solid #e6e4e4;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box i {
+    position: absolute;
+    left: 59px;
+    top: 50%;
+    transform: translateY(25%);
+    color: gray;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 12px 15px 12px 40px; /* left padding for icon */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.accordion {
+  margin: 40px ;
+  
+}
+
+.accordion-item {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-radius: 2px !important;
+  margin-left: 0 !important;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  
+  padding: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+  color: #397DD0;
+
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding: 0 16px;
+}
+
+.accordion-content.active {
+  max-height: 23rem;
+  padding: 16px;
+}
+
+.accordion-header.active {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-header:hover {
+  padding: 20px 20px;
+  transform: translateY(-2px);
+  transform: translateX(-2px);
+}
+.orange{
+  background-color: #fff5e9;
+}
+
+.accordion-col{
+  padding-right: 0 !important;
+}
+
+.orange-col{
+  padding-left: 0 !important;
+}
+
