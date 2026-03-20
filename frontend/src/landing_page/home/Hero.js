@@ -11,7 +11,7 @@ function Hero() {
                 />
                 <h2>Invest in everything</h2>
                 <p>Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
-                <button type="button" id ="btn" className="btn btn-primary" style={{width:"25%",margin:"0 auto"}}>Signup Now</button>
+                <a href="http://localhost:3000/login"><button type="button" id ="btn" className="btn btn-primary" style={{width:"25%",margin:"0 auto"}}>Signup Now</button></a>
             </div>
         </div>
         

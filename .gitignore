@@ -11,3 +11,8 @@ build/
 
 # tooling
 .vite/
+
+**/.env
+node_modules/
+dist/
+build/
